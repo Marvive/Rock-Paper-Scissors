@@ -2,8 +2,8 @@ type: code
 files:
 - name: task.py
   visible: true
-  text: '# add Turkey to countries.txt'
+  text: '# create the planets.txt'
   learner_created: false
-feedback_link: https://hyperskill.org/learn/step/8340
+feedback_link: https://hyperskill.org/learn/step/8339
 status: Solved
 record: -1
