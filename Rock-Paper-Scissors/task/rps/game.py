@@ -23,7 +23,7 @@ if name_exists is not True:
     score_map = {name: 0}
 
 game_style = input().split(",")
-print("Okay let's start")
+print("Okay, let's start")
 
 if not game_style[0]:
     while True:
@@ -110,7 +110,7 @@ else:
     #     Check results
     # Each choice should beat half of the options - 1
         if answer in choice_map.values():
-            print("Option Valid")
+            # print("Option Valid")
             answer_key = game_style.index(answer)
             if answer_key == random_num:
                 print(f"There is a draw ({computer_choice})")
